@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/song-details/static/js/main.440a5872.js",
+    "index.html": "/song-details/index.html",
+    "main.440a5872.js.map": "/song-details/static/js/main.440a5872.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.440a5872.js"
+  ]
+}
