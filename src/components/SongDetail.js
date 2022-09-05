@@ -20,8 +20,10 @@ const SongDetail = ({ song }) => {
     );
   } else {
     return (
-      <div>
-        <h3>Select a song.</h3>
+      <div className="ui raised card">
+        <div className="content">
+          <div className="header">Select a song.</div>
+        </div>
       </div>
     );
   }
