@@ -4,13 +4,18 @@ import { connect } from 'react-redux';
 const SongDetail = ({ song }) => {
   if (song) {
     return (
-      <div>
-        <h3>Details for:</h3>
-        <p>
-          Title: {song.title}
-          <br />
-          Duration: {song.duration}
-        </p>
+      <div className="ui raised card">
+        <div className="content">
+          <div className="header">Song Details</div>
+        </div>
+        <div className="content">
+          <div className="ui sub header">Title</div>
+          <div className="description">{song.title}</div>
+        </div>
+        <div className="content">
+          <div className="ui sub header">Duration</div>
+          <div className="description">{song.duration}</div>
+        </div>
       </div>
     );
   } else {
